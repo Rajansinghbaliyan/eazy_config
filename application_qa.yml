@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+accounts:
+  message: "${QA_MESSAGE:Hello now properties from QA}"
+  contactDetails:
+    name: "James"
+    email: "james@test_qa.com"
+  onCallSupport:
+    - 123-567
+    - 123-678

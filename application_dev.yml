@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "dev"
+
+accounts:
+  message: "Hello now properties from DEV"
+  contactDetails:
+    name: "James"
+    email: "james@test_dev.com"
+  onCallSupport:
+    - 123-567
+    - 123-678
